@@ -1,17 +1,13 @@
 # Toy Tactics downloads
 
-**Private distribution:** this repository and the source repository are private. Only authorized GitHub accounts can access these downloads. Sharing the URL alone does not grant access. Anonymous game update checks are currently paused. Private delivery for friends without GitHub accounts is still pending.
+Already installed? Open **Updates → Check for updates → Update and restart** in the game. No GitHub account or new download link is needed. Finish your Battle before updating. The game also checks when it starts.
 
-[Download the latest Windows version](https://github.com/LPOC-A/toy-tactics-releases/releases/latest)
+[First installation: download the latest Windows ZIP](https://github.com/LPOC-A/toy-tactics-releases/releases/latest), choose **Extract all**, then open **ToyTactics.exe**. Keep the whole folder together. Godot, .NET and development tools are not required.
 
-After signing in with an authorized account, download the Windows ZIP, choose **Extract all**, then open **ToyTactics.exe** inside the extracted folder. Keep the whole folder together. Godot, .NET, the source repository, and development tools are not required.
+Both players need the same version. Choose **Create private room** and share the eight-character code; your friend chooses **Join room**. Keep the host running throughout the Battle and replay.
 
-The game shows its version and an **Updates** button in the top-right corner. The initial build cannot authenticate to this private repository, so its update check cannot fetch the feed. Do not embed GitHub tokens in the game to bypass this restriction. Install later versions from the private Releases page until private update delivery is available.
+Updates verify the publisher's signature and the package's size and SHA256 before installation. The previous installation is kept for recovery; saves stay separate. Older saved Battles may require their original compatible build. Failed downloads leave the installed game available. The Windows preview is not Authenticode-signed and may show an unrecognized-app prompt.
 
-Release metadata is signed by the publisher. The Windows preview itself is not Authenticode-signed, so Windows may show an unrecognized-app prompt.
+This repository contains public game downloads and release information. The source repository and publishing credentials remain private. This update channel will eventually be retired when the game moves to Steam; no Steam migration date is set.
 
-**Internet rooms are awaiting hosting deployment.** The first build supports local two-player battles and LAN/direct connections. Internet room hosting remains pending.
-
-The ZIP includes **START HERE.md** with controls and troubleshooting. Each release includes a SHA256 checksum and signed update metadata.
-
-A recipient can forward downloaded files. Making this repository private cannot recall copies obtained while it was public.
+Release notes inside older packages may describe the former private-download restriction. Anonymous menu updates supersede that restriction from 14 November 2026. Existing package bytes and signed metadata are preserved.
